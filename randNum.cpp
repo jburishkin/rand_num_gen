@@ -48,7 +48,7 @@ int main() {
 		std::cout << "\nRandom integer: " << random_int << "\n" << std::endl;
 
 		// Check if the user wants to quit.
-		std::cout << "If you want to quit, press 'q'; if you want to continue press any other key.";
+		std::cout << "If you want to quit, press 'q'; if you want to continue press any other key: ";
 		std::cin >> control;
 		if (control == 'q' || control == 'Q') {
 			std::cout << "\nExiting program...\n";
